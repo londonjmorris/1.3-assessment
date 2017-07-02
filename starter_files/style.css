@@ -1,0 +1,143 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body{
+  background-color: #83909D;
+  color: #444444;
+}
+
+.page_border{
+  width: 800px;
+  height: 1700px;
+  margin: auto;
+  border: 2px solid #FFD063;
+  border-radius: 2px;
+  background-color: white;
+}
+
+#site_header{
+  height: 162px;
+  padding: 22px 14px;
+  background-color: #FF8523;
+}
+
+.main_navigation{
+  margin-top: 24px;
+}
+
+.main_navigation a{
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#page_content{
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #1FABE5;
+  margin: 24px 0;
+}
+
+ul {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.table_section{
+  border-top: 4px solid #DDDDDD;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+table{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 284px;
+  width: 754px;
+  border-collapse: collapse;
+}
+
+table, th, td{
+  border: 1px solid #1FABE5;
+}
+
+thead td{
+  color: white;
+  background-color: #00ACE0;
+  border: 1px solid #00639D;
+}
+
+td{
+  padding: 10px;
+}
+
+table img{
+  height: 50px;
+  width: 50px
+}
+
+.form_section{
+  border-top: 2px solid #DDDDDD;
+  border-bottom: 4px solid #DDDDDD;
+}
+
+form{
+  height: 520px;
+  background-color: #EEEEEE;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.name{
+  height: 82px;
+  background-color: #FF8523;
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+}
+
+.name input{
+  height: 40px;
+  width: 212px;
+  margin-right: 6px;
+  border: 1px groove #FFFFFF;
+}
+
+.city_container{
+  margin: 30px 0;
+}
+
+textarea{
+  margin: 12px 0;
+  width: 716px;
+  height: 200px;
+  color: #444444;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #1FABE5;
+}
+
+#submit_button{
+  background-color: #00ACE0;
+  height: 50px;
+  width: 104px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
